@@ -1,0 +1,194 @@
+.conteiner__card-new{
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    padding: 0 7.5em 7.5em 7.5em;
+
+    .espacamento-conteneir-title{
+        width: 21em;
+        padding-right: 1em;
+
+        .card-new__new{
+            display: grid;
+            align-content: space-between;
+            width: 20em;
+            height: 100%;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px black;
+            padding: 1em 2em 1em 1em;
+
+            h1{
+                font-size: 4.2em;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+            .hs__arrows{
+                display: flex;
+                justify-content: flex-end;
+                height: 100%;
+                width: 100%;
+                
+
+                input{
+                    width: 20%;
+                    height: 52px;
+                    font-size: 1.5em;
+                    margin-left: 1em;
+                    border: 1px solid black;
+                    border-radius: 100px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    .conteiner-modificacao{ 
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px black;
+        scrollbar-width: none;
+
+        .slick-prev::before, body .slick-next::before {
+            color: #65b029 !important;
+            }
+
+        .conteiner-modificacao::-webkit-scrollbar{
+            display: none;
+        }
+
+        .espacamento-conteneir{
+            display: flex;  
+            gap: 1em;
+            padding: 1em;
+
+            .conteiner{
+                width: 21em;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 1em;
+                border: 1px solid black;
+                border-radius: 5px;
+                box-shadow: 3px 3px 3px black;
+
+                .card-new__photo{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .card-new__filtre{
+                    font-size: 12px;
+                    color: #ffffff;
+                    padding: 2em 0 2em 0;
+                    
+
+                    span{
+                        padding: 6px;
+                        background-color: rgb(46, 43, 44);
+                        border-radius: 15px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .card-new__title{
+                    padding-bottom: 1em;
+                }
+
+
+                .card-new__description{
+                    color: rgb(88, 88, 88);
+
+                }
+            }
+        }
+    }
+}
+
+
+/* .conteiner__card-new[typeBtn="outline-primary"]{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7.5em 7.5em 7.5em; 
+
+    .espacamento-conteneir-title{
+        width: 100%;
+        padding-right: 1em;
+
+        .card-new__new{
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+            padding: 0 0 2em 0;
+
+            h1{
+                font-size: 4.5em;
+                max-width: 100%;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .conteiner-modificacao{ 
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow-x: scroll;
+
+        .espacamento-conteneir{
+            padding: 0 1em 0 0;
+        
+            .conteiner{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 1em;
+                border: 1px solid black;
+                border-radius: 5px;
+                box-shadow: 3px 3px 3px black;
+
+                .card-new__photo{
+                    width: 100%;
+                    height: 100%;
+                }
+
+
+                .card-new__filtre{
+                    font-size: 12px;
+                    color: #ffffff;
+                    padding: 2em 0 2em 0;
+                    
+
+                    span{
+                        padding: 6px;
+                        background-color: rgb(46, 43, 44);
+                        border-radius: 15px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .card-new__title{
+                    padding-bottom: 1em;
+                }
+
+
+                .card-new__description{
+                    color: rgb(88, 88, 88);
+
+                }
+            }
+        }
+    }
+} */

@@ -1,0 +1,105 @@
+.conteiner__card-top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    padding: 2em 7.5em 7.5em 7.5em;
+
+    .card-top__left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px black;
+
+        .card-left__photor{
+            width: 50%;
+            padding: 1em;
+        
+            img{
+                height: 16em;
+                width: 20em;
+                border-radius: 5px;
+            }
+        }
+
+        .card-left__top{
+            padding: 1em;
+            width: 100%;
+            height: 100%;
+
+            .card-left__title{
+                width: 100%;
+
+
+                span{
+                    color: rgb(162, 164, 166);
+                }
+                h3{
+                    padding: 0.5em 0 0.9em 0;
+                }
+            }
+
+            .lista-musc{
+                
+                
+                ul{
+                    
+
+                    li{
+                        list-style-type: none;
+                        border-bottom: 1px solid rgb(162, 164, 166);
+                        padding: 0.7em;
+                        font-size: 0.9em;
+
+                        a{
+                            font-family: 'Times New Roman', Times, serif;
+                            font-size: 0.9em;
+                            cursor: pointer;
+                            white-space: nowrap; 
+                            overflow: hidden; 
+                            text-overflow: ellipsis; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .card-top__reght{
+        width: 70%; 
+        height: 285.55;
+        display: flex;
+        flex-direction: column;
+        padding: 0 3em 0 3em;
+
+        .card-reght__title{
+            width: 20ch;
+            height: 100%;
+            word-wrap: break-word;
+            font-size: 2em;
+        }
+
+        .card-reght__button{
+            width: 100%;
+            padding: 1.3em 0 0 0;
+
+            input{
+                height: 2em;
+                border-radius: 30px;
+                box-shadow: 3px 3px 3px black;
+                cursor: pointer;
+                background-color: rgb(234, 112, 96);
+                font-size: 1.6em;
+                transition: 600ms;
+                &:hover{
+                    background: rgb(46, 43, 44);;
+                }
+            }
+        }
+    }
+}

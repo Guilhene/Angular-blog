@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-top-musc',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './card-top-musc.component.css'
 })
 export class CardTopMuscComponent {
-
+  @Input() button: 'Playlist' | 'Sign Up' = 'Playlist' ;
 }

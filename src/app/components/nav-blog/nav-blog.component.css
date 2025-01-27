@@ -1,0 +1,24 @@
+.nav-blog__conteiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(46, 43, 44);
+    padding: 2em 7.5em 2em 7.5em;
+
+
+    .nav-blog__pages{
+        display: flex;
+        justify-content: end;
+        width: 30%;
+
+        a{
+            display: flex;
+            color: #ffff;
+            text-decoration: none;
+            justify-content: center;
+            cursor: pointer;
+            margin: 0 2em 0 2em;
+            
+        }
+    }
+}

@@ -1,16 +1,31 @@
-<div class="conteiner__card-new">
-    <div class="card-new__photo">
-        <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+<div class="conteiner__card-new" [attr.typeBtn]="typeBtn">
+    <div class="espacamento-conteneir-title">
+        <div class="card-new__new">
+            <h1>Spotlight on Artists</h1>
+            <div class="hs__arrows">
+                <input type="button" value=" < ">
+                <input type="button" value=" > ">
+            </div>
+        </div>
     </div>
-    <div class="card-new__filtre">
-        <span>Music</span>
-        <span>City</span>
-        <span>Personality</span>
-    </div>
-    <div class="card-new__title">
-        <h3>Soundscapes of the City: An interview with Lei Hart</h3>
-    </div>
-    <div class="card-new__description">
-        <p>fgfhgdflvc jhfklgdfkl fgjdfkgjdflkbnmc rgjflgkjdfkl jgdfklgjdflk gjlkgdf </p>
+    <div class="conteiner-modificacao">
+        <div class="espacamento-conteneir">
+            <div ngxSlickItem *ngFor="let slide of slides" class="conteiner"> 
+                <div class="card-new__photo">
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>Music</span>
+                    <span>City</span>
+                    <span>Personality</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Soundscapes of the City: An interview with Lei Hart</h3>
+                </div>
+                <div class="card-new__description">
+                    <p>fgfhgdflvc jhfklgdfkl fgjdfkgjdflkbnmc rgjflgkjdfkl jgdfklgjdflk gjlkgdf </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
