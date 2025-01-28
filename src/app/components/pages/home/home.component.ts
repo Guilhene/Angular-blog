@@ -5,11 +5,10 @@ import { TitleComponent } from '../../title/title.component';
 import { NavBlogComponent } from '../../nav-blog/nav-blog.component';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [TitleComponent, CardTopMuscComponent, CardNewComponent, NavBlogComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    imports: [TitleComponent, CardTopMuscComponent, CardNewComponent, NavBlogComponent],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent {
 

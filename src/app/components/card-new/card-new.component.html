@@ -1,31 +1,150 @@
-<div class="conteiner__card-new" [attr.typeBtn]="typeBtn">
-    <div class="espacamento-conteneir-title">
-        <div class="card-new__new">
-            <h1>Spotlight on Artists</h1>
-            <div class="hs__arrows">
-                <input type="button" value=" < ">
-                <input type="button" value=" > ">
-            </div>
+<div class="card-new" [attr.typeBtn]="typeBtn">
+    <div class="card-new__conteiner" [attr.typeBtn]="typeBtn">
+        <div class="card-new__noticia" [attr.typeBtn]="typeBtn">
+            <h1 [attr.typeBtn]="typeBtn">Spotlight on Artists</h1>
         </div>
-    </div>
-    <div class="conteiner-modificacao">
-        <div class="espacamento-conteneir">
-            <div ngxSlickItem *ngFor="let slide of slides" class="conteiner"> 
-                <div class="card-new__photo">
+        <div class="conteiner" [attr.typeBtn]="typeBtn"> 
+            <swiper-container 
+            style="
+                --swiper-navigation-color: black;
+                --swiper-navigation-bullet-horizontal-gap: 4px;
+                --swiper-navigation-bullet-vertical-gap: 6px;
+                "
+                navigation="true"
+                pagination="false" 
+                slides-per-view="4"
+                space-between="32" 
+                free-mode="true"
+                >
+                <swiper-slide height="100em">
+                        <div class="card-new__photo">
+                        <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                        </div>
+                        <div class="card-new__filtre">
+                            <span>Trends</span>
+                            <span>guilhermeefds</span>
+                            <span>Filme</span>
+                        </div>
+                        <div class="card-new__title">
+                            <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                        </div>
+                        <div class="card-new__description">
+                            <p>dkl;gsdmj kgfkdl fdkjgdf hgf ffh ihfsdjfnh eihfjsdljfhn seihfsd</p>
+                        </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                    </div>
+                    <div class="card-new__filte">
+                        <span>Trends</span>
+                        <span>guilhermeefds</span>
+                        <span>Filme</span>
+                    </div>
+                    <div class="card-new__title">
+                        <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                    </div>
+                    <div class="card-new__descricao">
+                        <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                    </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
                     <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
                 </div>
-                <div class="card-new__filtre">
-                    <span>Music</span>
-                    <span>City</span>
-                    <span>Personality</span>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
                 </div>
                 <div class="card-new__title">
-                    <h3>Soundscapes of the City: An interview with Lei Hart</h3>
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
                 </div>
-                <div class="card-new__description">
-                    <p>fgfhgdflvc jhfklgdfkl fgjdfkgjdflkbnmc rgjflgkjdfkl jgdfklgjdflk gjlkgdf </p>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
                 </div>
-            </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="">
+                </div>
+                <div class="card-new__filte">
+                    <span>Trends</span>
+                    <span>guilhermeefds</span>
+                    <span>Filme</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>Era uma vez nao sei o que escreverfsdfsdf</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>gdfdfghdfuhgdfughdjcvbhnxckbvxcboiurqwohjjklnasxcas fehfsdln eihfsdjfnh eihfjsdljfhn seihfsd</p>
+                </div>
+            </swiper-slide>
+            </swiper-container>
         </div>
     </div>
 </div>
