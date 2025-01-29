@@ -7,8 +7,34 @@
     background: rgb(46, 43, 44);
 
     .title__cabecario{
+        display: flex;
+        align-items: center;
+        width: 100%;
         font-size: 4em;
         padding-bottom: 1em;
+        white-space: nowrap;
+        color: #ffffff;
+
+
+        .title__cabecario__paragrafo p{
+            width: 40%;
+            padding-left: 1em;
+            color: rgb(122, 128, 134);
+            font-size: 0.4em;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        .title__cabecario__icons{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            a{
+                width: 16%;
+                padding-left: 14px;
+            }
+        }
     }
 
     .title__card{

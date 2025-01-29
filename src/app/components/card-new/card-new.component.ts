@@ -1,6 +1,4 @@
-import { Component, Input, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { Swiper } from 'swiper/types';
-
+import { Component, Input, CUSTOM_ELEMENTS_SCHEMA, AfterContentInit, AfterViewInit } from '@angular/core';
 
 
 
@@ -12,9 +10,8 @@ import { Swiper } from 'swiper/types';
     styleUrl: './card-new.component.css',
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class CardNewComponent  {
+export class CardNewComponent {
 
   @Input() typeBtn: "card-new" | "outline-primary" = "card-new";
-
 
 }

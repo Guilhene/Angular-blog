@@ -35,7 +35,6 @@
             .card-left__title{
                 width: 100%;
 
-
                 span{
                     color: rgb(162, 164, 166);
                 }
@@ -45,7 +44,7 @@
             }
 
             .lista-musc{
-                
+
                 
                 ul{
                     
@@ -78,7 +77,7 @@
         padding: 0 3em 0 3em;
 
         .card-reght__title{
-            width: 20ch;
+            width: 100%;
             height: 100%;
             word-wrap: break-word;
             font-size: 2em;
@@ -88,11 +87,12 @@
             width: 100%;
             padding: 1.3em 0 0 0;
 
-            input{
+            button{
+                width: 100%;
                 height: 2em;
                 border-radius: 30px;
                 box-shadow: 3px 3px 3px black;
-                cursor: pointer;
+                
                 background-color: rgb(234, 112, 96);
                 font-size: 1.6em;
                 transition: 600ms;
@@ -103,3 +103,15 @@
         }
     }
 }
+
+.card-reght__button a{
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em; 
+    color: black;
+}
+
