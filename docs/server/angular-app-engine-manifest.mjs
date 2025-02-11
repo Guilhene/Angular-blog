@@ -1,6 +1,6 @@
 
 export default {
-  basePath: './[Guilhene]',
+  basePath: '/Angular-blog',
   supportedLocales: {
   "en-US": ""
 },
