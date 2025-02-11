@@ -9,16 +9,29 @@
     .nav-blog__pages{
         display: flex;
         justify-content: end;
-        width: 30%;
+        width: 20%;
 
         a{
             display: flex;
             color: #ffff;
             text-decoration: none;
             justify-content: center;
-            cursor: pointer;
-            margin: 0 2em 0 2em;
-            
+            cursor: pointer;    
+            margin-left: 2em;        
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .nav-blog__conteiner{
+        width: 100%;
+        padding: 2em 0.5em 2em 0.5em;
+
+        .nav-blog__pages{
+            width: 100%;
+            a{ 
+                margin-left: 0.2em;        
+            }
         }
     }
 }

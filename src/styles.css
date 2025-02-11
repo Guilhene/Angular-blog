@@ -6,3 +6,8 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media screen and (max-width: 500px){
+    *{
+        overflow-x: hidden;
+    }
+}

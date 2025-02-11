@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
     templateUrl: './card-top-musc.component.html',
     styleUrl: './card-top-musc.component.css'
 })
-export class CardTopMuscComponent implements OnInit {
+export class CardTopMuscComponent  {
 
   @Input() img: string = "";
   @Input() top: string = "";
@@ -20,6 +20,5 @@ export class CardTopMuscComponent implements OnInit {
   @Input() button: string = "";
   // @Input() button: 'Playlist' | 'Sign Up' = 'Playlist' ;
 
-  ngOnInit(): void {
-  }
+
 }

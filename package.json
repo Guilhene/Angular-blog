@@ -29,7 +29,7 @@
     "ngx-slick-carousel": "^18.0.0",
     "rxjs": "~7.8.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.2.1",
+    "swiper": "^11.2.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },

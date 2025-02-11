@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
     templateUrl: './nav-blog.component.html',
     styleUrl: './nav-blog.component.css'
 })
-export class NavBlogComponent implements OnInit {
+export class NavBlogComponent {
     
     @Input() img: string = "";
     @Input() top: string = "";
@@ -19,6 +19,4 @@ export class NavBlogComponent implements OnInit {
     @Input() descricao: string = "";
     @Input() button: string = "";
 
-    ngOnInit(): void {
-    }
 }

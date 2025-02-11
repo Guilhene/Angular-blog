@@ -7,7 +7,7 @@ import { Component, Input, OnInit, } from '@angular/core';
     templateUrl: './title.component.html',
     styleUrl: './title.component.css'
 })
-export class TitleComponent implements OnInit {
+export class TitleComponent{
 
   
   @Input() primaryImg: string = "";
@@ -21,6 +21,4 @@ export class TitleComponent implements OnInit {
   @Input() filtre3: string = "";
   
   
-  ngOnInit():void{
-  }
 }
