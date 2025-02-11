@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://guilhene.github.io/Blog',
+  basePath: 'https://guilhene.github.io/angular-blog',
   supportedLocales: {
   "en-US": ""
 },

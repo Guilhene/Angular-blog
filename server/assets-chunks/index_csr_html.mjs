@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Blog</title>
-  <base href="https://guilhene.github.io/Blog/">
+  <base href="https://guilhene.github.io/angular-blog/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>*{width:100%;padding:0;margin:0;box-sizing:border-box;font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif}@media screen and (max-width: 500px){*{overflow-x:hidden}}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}</style><link rel="stylesheet" href="styles-DWEZ24QY.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-DWEZ24QY.css"></noscript></head>
