@@ -1,0 +1,30 @@
+<div class="conteiner__card-top" [attr.typeTop]="typeTop">
+    <div class="card-top__left" [attr.typeTop]="typeTop">
+        <div class="card-left__photor">
+            <img src="{{img}}" alt="">
+        </div>
+        <div class="card-left__top" [attr.typeTop]="typeTop">
+            <div class="card-left__title">
+                <span>{{top}}</span>
+                <h3>{{title}}</h3>
+            </div>
+            <div class="lista-musc">
+                <ul>
+                    <li>#01<a class="play">-{{top1}}-</a></li>
+                    <li>#02<a class="play">-{{top2}}-</a></li>
+                    <li>#03<a class="play">-{{top3}}-</a></li>
+                    <li>#04<a class="play">-{{top4}}-</a></li>
+                    <li>#05<a class="play">-{{top5}}-</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card-top__reght" [attr.typeTop]="typeTop">
+        <div class="card-reght__title">
+            <h1>{{descricaoTop}}</h1>
+        </div>
+        <div class="card-reght__button" [attr.typeTop]="typeTop">
+            <button [attr.typeTop]="typeTop"><a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF">{{button}}</a></button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,219 @@
+
+.card-new {
+    width: 100%;
+    height: 100%;
+    padding: 0 7.5em 7.5em 7.5em;
+    display: flex;
+
+    .card-new__conteiner{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .card-new__noticia {
+        display: grid;
+        align-content: space-between;
+        background-color: #fff;
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px black;
+        padding: 1em 2em 1em 1em;
+        margin-right: 1em;
+        margin-bottom: 0.5em;
+    }
+}
+
+.card-new_h1{
+
+    h1{
+        font-size: 3.5em;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}
+
+.conteiner{ 
+    display: flex;
+    padding: 0.5em 0 0.5em 1em;
+    overflow: hidden; 
+}
+
+swiper-container{
+    width: 100%;
+    height: 100%; 
+    background: rgb(46, 43, 44);   
+    padding: 1em;
+    border: 1px solid rgb(46, 43, 44);
+    border-radius: 9px;
+    cursor: grabbing;
+}
+
+swiper-slide{
+    width: 25%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-new__photo, img{
+    width: 100%;
+    height: 190.483px;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px black;
+}
+
+span{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 6px;
+    background-color: rgb(46, 43, 44);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-new__title h3{
+    padding: 0.9em 0 0.7em 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-new__descricao, p {
+    width: 100%;
+    font-size: 0.9em;
+    color: rgb(88, 88, 88);
+    overflow: hidden;
+}
+
+
+.card-new [typeBtn="outline-primary"] {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-new__conteiner [typeBtn="outline-primary"]{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #ffff;
+}
+
+.card-new__noticia [typeBtn="outline-primary"]{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+
+.card-new [typeBtn="outline-segund"] {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-new__conteiner [typeBtn="outline-segund"]{
+    display: flex;
+    flex-direction: column;
+    background: rgb(46, 43, 44);
+    border: 1px solid rgb(46, 43, 44);
+    box-shadow: 1px 1px 1px rgb(46, 43, 44);
+}
+
+.card-new__noticia [typeBtn="outline-segund"]{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    padding-left: 0.3em;
+    color: #fff;
+}
+
+.card-new [typeBtn="outline-third"] {
+    padding: 0.2em;
+    background: rgb(64, 65, 66);
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+.card-new__conteiner [typeBtn="outline-third"]{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 0.5em;
+}
+
+.card-new__noticia [typeBtn="outline-third"]{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 500px) {
+    .card-new {
+        width: 100%;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+    
+        .card-new__conteiner{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .card-new__noticia {
+            width: 100%;
+            padding: 0em;
+            border: 0px;
+            box-shadow: 0px 0px 0px;
+    
+            h1{
+                font-size: 4em;
+            }
+        }
+    }
+
+    .conteiner{ 
+        padding: 1em 0 0 0;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+    }
+
+    .card-new__photo{
+        height: 179px;
+    }
+
+    .card-new__photo, img{
+        width: 100%;
+        
+        padding-bottom: 0.5em;
+    }
+
+
+    .card-new__title h3{
+        padding-top: 0.5em;
+    }
+
+    .card-new__filtre {
+        height: 24px;
+    }
+
+    swiper-slide{
+        height: 364px;
+    }
+
+}

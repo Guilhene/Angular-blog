@@ -1,0 +1,152 @@
+<div class="card-new" [attr.typeBtn]="typeBtn">
+    <div class="card-new__conteiner" [attr.typeBtn]="typeBtn">
+        <div class="card-new__noticia" [attr.typeBtn]="typeBtn">
+            <div class="card-new_h1">
+                <h1 [attr.typeBtn]="typeBtn">Spotlight on Artists</h1>
+            </div>
+        </div>
+        <div class="conteiner" [attr.typeBtn]="typeBtn"> 
+            <swiper-container
+                style="
+                    --swiper-navigation-color: black;
+                    --swiper-navigation-bullet-horizontal-gap: 4px;
+                    --swiper-navigation-bullet-vertical-gap: 6px;
+                    "
+                [config]="swiperConfig"
+                [slidesPerView]="swiper.slidesPerView"
+                [breakpoints]="swiper.breakpoints"
+                [navigation]="swiper.navigation"
+                class="mySwiper"
+                >
+                <swiper-slide>
+                    <div class="card-new__photo">
+                        <img src="{{cardImg}}" alt="">
+                    </div>
+                    <div class="card-new__filtre">
+                        <span>{{filtre1}}</span>
+                        <span>{{filtre2}}</span>
+                        <span>{{filtre3}}</span>
+                    </div>
+                    <div class="card-new__title">
+                        <h3>{{cardTilte1}}</h3>
+                    </div>
+                    <div class="card-new__description">
+                        <p>{{description1}}</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="card-new__photo">
+                        <img src="{{cardImg2}}" alt="">
+                    </div>
+                    <div class="card-new__filtre">
+                        <span>{{filtre1}}</span>
+                        <span>{{filtre2}}</span>
+                        <span>{{filtre3}}</span>
+                    </div>
+                    <div class="card-new__title">
+                        <h3>{{cardTilte2}}</h3>
+                    </div>
+                    <div class="card-new__descricao">
+                        <p>{{description2}}</p>
+                    </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg3}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte3}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description3}}</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg4}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte4}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description4}}</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg5}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte5}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description5}}</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg6}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte6}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description6}}</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg7}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte7}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description7}}</p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card-new__photo">
+                    <img src="{{cardImg8}}" alt="">
+                </div>
+                <div class="card-new__filtre">
+                    <span>{{filtre1}}</span>
+                    <span>{{filtre2}}</span>
+                    <span>{{filtre3}}</span>
+                </div>
+                <div class="card-new__title">
+                    <h3>{{cardTilte8}}</h3>
+                </div>
+                <div class="card-new__descricao">
+                    <p>{{description8}}</p>
+                </div>
+            </swiper-slide>
+            </swiper-container>
+        </div>
+    </div>
+</div>
